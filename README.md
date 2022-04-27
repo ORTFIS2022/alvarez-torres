@@ -1,1 +1,39 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7714505&assignment_repo_type=AssignmentRepo)
+#Proyecto - NFTrade
+
+|Documentacion|
+|Fundamentos de Ingenieria de Software|
+|M4A - Docentes: Alejandro Adorjan, |
+|Santiago Alvarez, Pablo Torres|
+|https://github.com/ORTFIS2022/torres-alvarez|
+
+#Repositorio Git
+##Repositorio
+##Comandos
+
+#Versionado
+##Ramas
+##Commits
+##Nuestra experiencia
+
+#Elicitacion
+##Actividades
+##Teorico
+##User personas
+##Modelo del problema
+
+#Especificacion
+##Requerimientos
+###Funcionales
+###No funcionales
+##Casuistica
+###User cases
+###User stories
+##UI
+
+#Validaciones
+##Especificacion
+##Solucion
+
+#Reflexion
+
+#Resumen
