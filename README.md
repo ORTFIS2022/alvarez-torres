@@ -1,39 +1,39 @@
-#Proyecto - NFTrade
+# Proyecto - NFTrade
 
-|Documentacion|
-|Fundamentos de Ingenieria de Software|
-|M4A - Docentes: Alejandro Adorjan, |
-|Santiago Alvarez, Pablo Torres|
-|https://github.com/ORTFIS2022/alvarez-torres|
+| Documentacion |
+| Fundamentos de Ingenieria de Software |
+| M4A - Docentes: Alejandro Adorjan, |
+| Santiago Alvarez, Pablo Torres |
+| https://github.com/ORTFIS2022/alvarez-torres |
 
-#Repositorio Git
-##Repositorio
-##Comandos
+# Repositorio Git
+## Repositorio
+## Comandos
 
-#Versionado
-##Ramas
-##Commits
-##Nuestra experiencia
+# Versionado
+## Ramas
+## Commits
+## Nuestra experiencia
 
-#Elicitacion
-##Actividades
-##Teorico
-##User personas
-##Modelo del problema
+# Elicitacion
+## Actividades
+## Teorico
+## User personas
+## Modelo del problema
 
-#Especificacion
-##Requerimientos
-###Funcionales
-###No funcionales
-##Casuistica
-###User cases
-###User stories
-##UI
+# Especificacion
+## Requerimientos
+### Funcionales
+### No funcionales
+## Casuistica
+### User cases
+### User stories
+## UI
 
-#Validaciones
-##Especificacion
-##Solucion
+# Validaciones
+## Especificacion
+## Solucion
 
-#Reflexion
+# Reflexion
 
-#Resumen
+# Resumen
