@@ -2,11 +2,12 @@
 
 
 
-[Documentacion] 
-[Fundamentos de Ingenieria de Software]
-[M4A - Docentes: Alejandro Adorjan,]
-[Santiago Alvarez, Pablo Torres]
-[https://github.com/ORTFIS2022/alvarez-torres]
+| Documentación                                |
+|----------------------------------------------|
+| Fundamentos de Ingeniería de Software        |
+| M4A - Docentes: Alejandro Adorjan,           |
+| Santiago Alvarez, Pablo Torres               |
+| https://github.com/ORTFIS2022/alvarez-torres |
 
 # Repositorio Git
 ## Repositorio
