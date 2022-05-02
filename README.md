@@ -14,9 +14,10 @@
 - **Wallet:**
 - **Contrato Inteligente:**
 - **mainnet:**
-- **Repositorio:** Locacion centralizada de almacenamiento de archivos. Utilizada por sistemas de control de versiones para manejar multiples versiones de archivos. Puede ser local (almacenado en la computadora), o remoto (almacenado en la nube, un servidor).
+- **Repositorio:** Estructura de directorios en disco, donde se almacenan el software. Utilizada por sistemas de control de versiones para manejar multiples versiones de archivos. Puede ser local (almacenado en la computadora), o remoto (almacenado en la nube, un servidor).
 - **Rama:** Version que parte de otra, siendo modificable de forma independiente y con la posibilidad de volver a fusionarse.  
 - **Git:** Sistema de control de versiones, el cual registra cambios a archivos con el fin de poder volver a estados anteriores. Tambien permite el trabajo asincronico centralizado por un repositorio remoto.
+  <!-- Rellenar y agregar palabras pertinentes -->
 # Repositorio Git
 ## Repositorio
 Para este proyecto se usó Git como nuestro sistema de control de versiones. Este software nos permitió conectar nuestros repositorios locales mediante un repositorio remoto en la nube, permitiendo un trabajo asincrónico. Se comenzó creando un proyecto de Git, desde el cual creamos repositorios locales en nuestras computadoras.
@@ -70,19 +71,36 @@ UK Data Service define algunas buenas prácticas de versionado como:
 
 ## Commits
 
-Separamos el informe en bloques y cada uno escogió cual quería hacer, al terminar dichos bloques realizamos commits a las ramas individuales. Luego de que cross-checkearamos lo añadido, realizabamos commits menores para arreglar o añadir contenido
+Separamos el informe en bloques y cada uno escogió cuales quería hacer, al terminar dichos bloques realizamos commits a las ramas individuales. Luego de que cross-checkearamos lo añadido, realizabamos commits menores para arreglar o añadir contenido.
 
-## Nuestra experiencia
+## Evolucion
 
-Decidimos que era pertinente crear ramas individuales, en las que trabajamos según las tareas que nos dividimos. Además de otra rama "release" la cual actualizamos cuando concluiamos las tareas asignadas.
+Decidimos que era pertinente crear ramas individuales, en las que trabajamos según las tareas que nos dividimos. Además de otra rama "release" la cual actualizamos cuando concluiamos las tareas asignadas. Trabajamos en ciclos donde realizabamos commits cuando cumpliamos metas preestablecidas y realizamos examinaciones cruzadas. Sentimos que no realizamos mucho re-trabajo gracias a la comunicacion que manejamos.
 
 # Elicitacion
 ## Actividades
 
-## Teorico
-## User personas
-## Modelo del problema
+### Tormenta de ideas
 
+Mediante la tormenta de ideas logramos pensar en una idea nueva para implementar, combinando dos paginas con las que estabamos familiarizados y voy a elaborar en el siguiente punto.
+
+### Ingenieria inversa
+
+Analizamos dos paginas para tomar inspiracion:
+Por un lado, OpenSea, quienes se autodenominan el primer y mas grande mercado de NFTs. De ellos tomamos la mayoria de las funcionalidades, como la compra, venta y publicacion de NFTs entre otros. 
+La otra parte de este proyecto tomo ideas de Hellcase. Esta es una pagina que se dedica a las apuestas de skins del videojuego Counter Strike: Global Offensive. En este juego los jugadores pueden obtener skins (aspectos) para sus armas jugando. Lo interesante de esto es que el juego permite que los jugadores compren, vendan e intercambien estas armas. Dado esto, y que las skins poseen un sistema de rareza que les da un valor intrinseco por su escasez, dio lugar a un mercado externo al juego. Paginas como Hellcase surgen para capitalizar en esta oportunidad, permitiendo que los usuarios apuesten sus armas contra la pagina. En caso de ganar, el usuario obtiene una skin con mayor valor monetario que la suya a cambio de la que aposto, y en caso de perder se queda sin nada. 
+La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como OpenSea, con juegos de apuestas como Hellcase.
+
+### User personas
+
+<!-- Los voy a hacer en photoshop -->
+
+### Entrevista
+
+<!-- Ya la mandamos -->
+
+## Modelo del problema
+<!-- No entendi -->
 # Especificacion
 ## Requerimientos
 ### Funcionales
@@ -110,20 +128,21 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 | RF9.2 | Apostar contra pagina |
 | RF10 | Ver transacciones |
 
-### No funcionales
+<!-- Los desarrollamos? -->
 
->Es un requerimiento que no describe lo que el programa va a hacer sino como lo hará. Pueden ser restricciones a los servicios provistos por el sistema, condiciones de rendimiento, atributos de calidad internos y externos, etc
+### No funcionales
+>Especifican *como* el sistema va a funcionar, no *que* va a hacer. Es un concepto muy amplio que abarca: usabilidad, portabilidad, seguridad, performance, entre otros. Al no ser tan concisos como los funcionales, se suelen usar estandares para comparar.
 
 | Id. | Nombre |
 | :-: | - |
-| RF 1 | Portabilidad para distintas plataformas |
-| RF 2 |  |
-
-
-
+| RNF1 | Portabilidad |
+| RNF1.1 | Compatibilidad con navegadores basados en chromium (101.0 o mayor)|
+| RNF1.2 | Compatibilidad con navegadores de celular (iOS 15.4 y Android 12 o mayores) |
+| RNF2 | Cumplimiento del estandar AA de la guia WCAG 2.1 (Accesibilidad) |
+| RNF3 | Cumplimiento del estandar ASVS 4.0.3 de OWASP (Seguridad) |
 
 ## Casuistica
-### User cases
+### Use cases
 | Id. | 1 |
 | - | - |
 | Titulo | Compra a precio fijo |
@@ -156,7 +175,7 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 | 5. El usuario confirma | El otro usuario confirma, se concreta el intercambio |
 | Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **5.1** El usuario rechaza; Se retorna a la pagina del producto <br/> **5.2** El otro usuario rechaza; Se cancela el intercambio <br/> **5.3** El otro usuario realiza una contraoferta; El usuario puede aceptarla, rechazarla o realizar otra contraoferta |
 
-
+<!-- Cuantos? -->
 
 ### User stories
 | Id. | 1 |
@@ -171,15 +190,36 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 | Narrativa | **Como** usuario. <br/> **Quiero** recibir notificaciones cuando oferten por mi NFT.<br/> **Para** no perderme oportunidades de negocios. |
 | Criterios de aceptacion | <ul><li> Se puede dar de alta o baja para las notificaciones.</li><li>Se puede establecer un limite inferior para que no llegue spam.</li></ul> |
 
+<!-- Cuantos? -->
+
 ## UI
 
+<!-- Lo voy a hacer en figma -->
+
 # Validaciones
-## Especificacion
-## Solucion
+## Verificando la especificacion
+
+<!-- No entendi -->
+
+## Validando la solucion
+
+<!-- Cuando terminemos -->
 
 # Reflexion
-
+**Santi:** Por mi parte, siento que nos repartimos bien las tareas, tuvimos una buena comunicacion y logramos cumplir con nuestras metas dentro del tiempo designado.
+**Pablo:**
 # Resumen
+
+Para la realizacion de este trabajo aplicamos:
+- Tormenta de ideas
+- Ingenieria Inversa
+- User Personas
+- Entrevista
+- Modelaje del problema
+- Use cases
+- User stories
+- Especificacion de requierimientos
+De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten minimizar el re-trabajo.
 
 # Fuentes
 - Presentaciones del curso
@@ -187,3 +227,4 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 - IBM.com
 - TechTerms.com
 - UTDallas.edu
+- OpenSea.io
