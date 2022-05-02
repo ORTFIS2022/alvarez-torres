@@ -13,7 +13,6 @@
 - **NFT:** ERC-721
 - **Wallet:**
 - **Contrato Inteligente:**
-- **mainnet:**
 - **Repositorio:** Estructura de directorios en disco, donde se almacenan el software. Utilizada por sistemas de control de versiones para manejar multiples versiones de archivos. Puede ser local (almacenado en la computadora), o remoto (almacenado en la nube, un servidor).
 - **Rama:** Version que parte de otra, siendo modificable de forma independiente y con la posibilidad de volver a fusionarse.  
 - **Git:** Sistema de control de versiones, el cual registra cambios a archivos con el fin de poder volver a estados anteriores. Tambien permite el trabajo asincronico centralizado por un repositorio remoto.
