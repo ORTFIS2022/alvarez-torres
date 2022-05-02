@@ -163,7 +163,7 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 | Id. | 2 |
 | - | - |
-| Titulo | Tradeao |
+| Titulo | Tradeo |
 | Descripcion | Realizar un intercambio de NFTs entre dos usuarios |
 | Requerimiento/s asociado/s | RF5, RF7, RF8 |
 | Actor/es | Usuario |
@@ -240,6 +240,15 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 # Validaciones
 ## Verificando la especificacion
+
+Verificamos los requerimientos que nos parecieron pertinentes con una tabla de criterios de aceptación
+
+| *Requerimiento* | *RF1* | *RF2* | *RF3* | *RF5* | *RF6* | *RF7* | *RF8* | *RN9* | *RNF1* | *RNF5* |
+|:-----------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|     Relevante     |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si    |    Si    |
+|     Alcanzable    |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si    |    Si    |
+|     Específico    |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si    |    Si    |
+|     Priorizado    |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si    |    Si    |
 
 <!-- Sacar del ejemplo. Se puede hacer una tabla entre UC y RF -->
 
