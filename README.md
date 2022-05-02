@@ -78,6 +78,7 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 
 # Elicitacion
 ## Actividades
+
 ## Teorico
 ## User personas
 ## Modelo del problema
@@ -85,10 +86,80 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 # Especificacion
 ## Requerimientos
 ### Funcionales
+>Especifican servicios o funciones del sistema. Describe el comportamiento del sistema mediante la definicion de entradas y salidas esperadas del sistema.
+
+| Id. | Nombre |
+| :-: | - |
+| RF1 | Sign In |
+| RF2 |  Log In |
+| RF3 | Crear NFT |
+| RF4 | Asociar wallet |
+| RF5 | Comprar NFT |
+| RF5.1 | Filtrar |
+| RF5.2 | Ordenar |
+| RF6 | Vender NFT |
+| RF6.1 | Postear unitario |
+| RF6.2 | Postear coleccion |
+| RF7 | Transacciones |
+| RF7.1 | Precio fijo |
+| RF7.2 | Subasta |
+| RF7.3 | Subasta holandesa |
+| RF8 | Tradear NFT |
+| RF9 | Juegos NFT |
+| RF9.1 | Wheel of fortune |
+| RF9.2 | Apostar contra pagina |
+| RF10 | Ver transacciones |
+
 ### No funcionales
 ## Casuistica
 ### User cases
+| Id. | 1 |
+| - | - |
+| Titulo | Compra a precio fijo |
+| Descripcion | Filtro de contenido |
+| Requerimiento/s asociado/s | RF5, RF6, RF7, RF7.1 |
+| Actor/es | Usuario |
+| Prerequisito/s | Estar suscripto, estar logueado |
+| Posrequisito/s | Se realizo la transaccion de forma correcta |
+| Accion | Respuesta |
+| 1. Seleccionar "Tienda" | Se redirige a la tienda |
+| 2. Selecciona un NFT del catalogo | Se lleva a la pagina del producto |
+| 3. El usuario selecciona comprar | Se despliegan los metodos de compra |
+| 4. El usuario selecciona "Comprar ya!" | Se abre un pop-up de confirmacion |
+| 5. El usuario confirma | Se concreta la transaccion y se notifica a ambos usuarios |
+| Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **4.1:** El usuario no tiene wallet asociada o su sueldo es insuficiente; Le es notificado y retorna a la pagina del producto. <br/> **5.1** El usuario rechaza; Se retorna a la pagina del producto |
+
+| Id. | 2 |
+| - | - |
+| Titulo | Tradeao |
+| Descripcion | Realizar un intercambio de NFTs entre dos usuarios |
+| Requerimiento/s asociado/s | RF8 |
+| Actor/es | Usuario |
+| Prerequisito/s | Estar suscripto, estar logueado, tener al menos un NFT |
+| Posrequisito/s | Se realizo el intercambio de forma correcta |
+| Accion | Respuesta |
+| 1. Seleccionar "Tienda" | Se redirige a la tienda |
+| 2. Selecciona un NFT del catalogo | Se lleva a la pagina del producto |
+| 3. El usuario selecciona intercambiar | Se despliegan los NFTs para ofertar |
+| 4. El usuario selecciona un NFT | Se abre un pop-up de confirmacion |
+| 5. El usuario confirma | El otro usuario confirma, se concreta el intercambio |
+| Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **5.1** El usuario rechaza; Se retorna a la pagina del producto <br/> **5.2** El otro usuario rechaza; Se cancela el intercambio <br/> **5.3** El otro usuario realiza una contraoferta; El usuario puede aceptarla, rechazarla o realizar otra contraoferta |
+
+
+
 ### User stories
+| Id. | 1 |
+| - | - |
+| Titulo | Filtro de contenido |
+| Narrativa | **Como** administrador. <br/> **Quiero** filtrar los NFTs en venta.<br/> **Para** evitar obsenidades / infricciones de copyright|
+| Criterios de aceptacion | <ul><li>No se puede lanzar un NFT al mercado sin aprovacion de un administrador.</li><li>Un administrador puede deslistar un NFT de la tienda en cualquier momento</li></ul> |
+
+| Id. | 2 |
+| - | - |
+| Titulo | Notificaciones ofertas |
+| Narrativa | **Como** usuario. <br/> **Quiero** recibir notificaciones cuando oferten por mi NFT.<br/> **Para** no perderme oportunidades de negocios. |
+| Criterios de aceptacion | <ul><li> Se puede dar de alta o baja para las notificaciones.</li><li>Se puede establecer un limite inferior para que no llegue spam.</li></ul> |
+
 ## UI
 
 # Validaciones
@@ -104,3 +175,4 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 - Documentos de git-scm
 - IBM.com
 - TechTerms.com
+- UTDallas.edu
