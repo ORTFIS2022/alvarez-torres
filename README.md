@@ -66,7 +66,7 @@ UK Data Service define algunas buenas prácticas de versionado como:
 
 ## Ramas
 
-Una rama (branch) es un espacio virtual de trabajo que permite que los desarrolladores diverjan de la version estable del software para solucionar un bug o para añadir nuevas funciones. En las ramas se trabaja con una copia sin modificar de la version existente para aislar las actualizaciones y luego probarlas antes de hacer merge a las ramas principales. Otro posible uso de las ramas es para poder variar el producto según instrucciones de un cliente. 
+>Una rama (branch) es un espacio virtual de trabajo que permite que los desarrolladores diverjan de la version estable del software para solucionar un bug o para añadir nuevas funciones. En las ramas se trabaja con una copia sin modificar de la version existente para aislar las actualizaciones y luego probarlas antes de hacer merge a las ramas principales. Otro posible uso de las ramas es para poder variar el producto según instrucciones de un cliente. 
 
 ## Commits
 
@@ -111,6 +111,17 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 | RF10 | Ver transacciones |
 
 ### No funcionales
+
+>Es un requerimiento que no describe lo que el programa va a hacer sino como lo hará. Pueden ser restricciones a los servicios provistos por el sistema, condiciones de rendimiento, atributos de calidad internos y externos, etc
+
+| Id. | Nombre |
+| :-: | - |
+| RF 1 | Portabilidad para distintas plataformas |
+| RF 2 |  |
+
+
+
+
 ## Casuistica
 ### User cases
 | Id. | 1 |
