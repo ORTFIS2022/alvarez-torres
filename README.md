@@ -106,7 +106,7 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ## Modelo del problema
 
-<!-- Relaciones entre entidades -->
+![Modelo Entidad-Relación](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/mer.png)
 
 # Especificacion
 ## Requerimientos
@@ -241,7 +241,11 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ## UI
 
-<!-- Lo voy a hacer en figma -->
+![Homepage](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/homepage.png)
+
+![Perfil](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/profile.png)
+
+![Apuesta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/apuesta.png)
 
 # Validaciones
 ## Verificando la especificacion
