@@ -36,7 +36,7 @@ Una rama (branch) es un espacio virtual de trabajo que permite que los desarroll
 
 ## Commits
 
-
+Separamos el informe en bloques y cada uno escogió cual quería hacer, al terminar dichos bloques realizamos commits a las ramas individuales. Luego de que cross-checkearamos lo añadido, realizabamos commits menores para arreglar o añadir contenido
 
 ## Nuestra experiencia
 
