@@ -254,6 +254,7 @@ Verificamos los requerimientos que nos parecieron pertinentes con una tabla de c
 
 ## Validando la solucion
 
+Acordamos una instancia en persona para enseñarle el proyecto a una persona cercana, le explicamos los conceptos necesarios para entender las funciones del sistema y un recorrido por las distintas características del mismo. La persona quedó sastisfecha, remarcó la innovación y aportó detalles del diseño.
 <!-- Cuando terminemos -->
 
 # Reflexion
