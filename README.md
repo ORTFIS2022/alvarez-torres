@@ -1,10 +1,10 @@
 # Proyecto - NFTrade
 
-| Documentación                                |
-|----------------------------------------------|
-| Fundamentos de Ingeniería de Software        |
-| M4A - Docentes: Alejandro Adorjan,           |
-| Santiago Alvarez, Pablo Torres               |
+| Documentación |
+|-|
+| Fundamentos de Ingeniería de Software |
+| M4A - Docentes: Alejandro Adorjan, Rocio |
+| Santiago Alvarez, Pablo Torres |
 | https://github.com/ORTFIS2022/alvarez-torres |
 
 # Glosario
@@ -83,6 +83,7 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 ### Tormenta de ideas
 
 Mediante la tormenta de ideas logramos pensar en una idea nueva para implementar, combinando dos paginas con las que estabamos familiarizados y voy a elaborar en el siguiente punto.
+<!--Plantearlo como intro a elicitacion, no como actividad-->
 
 ### Ingenieria inversa
 
@@ -100,35 +101,35 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 <!-- Ya la mandamos -->
 
 ## Modelo del problema
-<!-- No entendi -->
+
+<!-- Relaciones entre entidades -->
+
 # Especificacion
 ## Requerimientos
 ### Funcionales
 >Especifican servicios o funciones del sistema. Describe el comportamiento del sistema mediante la definicion de entradas y salidas esperadas del sistema.
 
-| Id. | Nombre |
-| :-: | - |
-| RF1 | Sign In |
-| RF2 |  Log In |
-| RF3 | Crear NFT |
-| RF4 | Asociar wallet |
-| RF5 | Comprar NFT |
-| RF5.1 | Filtrar |
-| RF5.2 | Ordenar |
-| RF6 | Vender NFT |
-| RF6.1 | Postear unitario |
-| RF6.2 | Postear coleccion |
-| RF7 | Transacciones |
-| RF7.1 | Precio fijo |
-| RF7.2 | Subasta |
-| RF7.3 | Subasta holandesa |
-| RF8 | Tradear NFT |
-| RF9 | Juegos NFT |
-| RF9.1 | Wheel of fortune |
-| RF9.2 | Apostar contra pagina |
-| RF10 | Ver transacciones |
-
-<!-- Los desarrollamos? -->
+| Id. | Nombre | Funcionalidad | Prioridad |
+| :-: | - | - | - |
+| RF1 | Sign In | Crear usuario con mail y contra | Alta |
+| RF2 |  Log In | Ingresar con un usuario | Alta |
+| RF3 | Crear NFT | Publicar un archivo como NFT y publicarlo en la tienda | Media |
+| RF4 | Asociar wallet | Asociar una wallet a la cuenta | Alta |
+| RF5 | Comprar NFT | Comprar un NFT pagando con una criptomoneda | Alta |
+| RF5.1 | Filtrar | Filtrar NFTs por tipo de archivo | Baja |
+| RF5.2 | Ordenar | Ordenar NFTs por precio o antiguedad | Baja |
+| RF6 | Vender NFT | Poder enlistar un NFT propio en la tienda | Alta |
+| RF6.1 | Postear unitario | Enlistar un NFT propio a la venta | Alta |
+| RF6.2 | Postear coleccion | Enlistar NFTs propios a la venta en bundles | Baja |
+| RF7 | Transacciones | Intercambio de NFTs por criptomonedas u otros NFTs | Alta |
+| RF7.1 | Precio fijo | Venta donde se preestablece el precio final | Alta |
+| RF7.2 | Subasta | Subasta tipica con un tiempo determinado | Media |
+| RF7.3 | Subasta holandesa | Subasta donde el precio baja con el tiempo | Baja |
+| RF8 | Tradear NFT | Intercambiar NFTs con otro usuario | Alta |
+| RF9 | Juegos NFT | Juegos de apuestas de NFTs | Alta |
+| RF9.1 | Wheel of fortune | Ruleta NFTs donde se paga con criptomonedas por tirada | Media |
+| RF9.2 | Apostar contra pagina | Apostar NFTs contra la pagina | Alta |
+| RF10 | Ver transacciones | Ver un registro de las transacciones del sitio | Baja |
 
 ### No funcionales
 >Especifican *como* el sistema va a funcionar, no *que* va a hacer. Es un concepto muy amplio que abarca: usabilidad, portabilidad, seguridad, performance, entre otros. Al no ser tan concisos como los funcionales, se suelen usar estandares para comparar.
@@ -136,10 +137,12 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 | Id. | Nombre |
 | :-: | - |
 | RNF1 | Portabilidad |
-| RNF1.1 | Compatibilidad con navegadores basados en chromium (101.0 o mayor)|
+| RNF1.1 | Compatibilidad con navegadores basados en Chromium (101.0 o mayor)|
 | RNF1.2 | Compatibilidad con navegadores de celular (iOS 15.4 y Android 12 o mayores) |
 | RNF2 | Cumplimiento del estandar AA de la guia WCAG 2.1 (Accesibilidad) |
 | RNF3 | Cumplimiento del estandar ASVS 4.0.3 de OWASP (Seguridad) |
+| RNF4 | Versiones en espanol, ingles y portugues |
+| RNF5 | Tiempo de transaccion menor a dos minutos |
 
 ## Casuistica
 ### Use cases
@@ -157,13 +160,13 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 | 3. El usuario selecciona comprar | Se despliegan los metodos de compra |
 | 4. El usuario selecciona "Comprar ya!" | Se abre un pop-up de confirmacion |
 | 5. El usuario confirma | Se concreta la transaccion y se notifica a ambos usuarios |
-| Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **4.1:** El usuario no tiene wallet asociada o su sueldo es insuficiente; Le es notificado y retorna a la pagina del producto. <br/> **5.1** El usuario rechaza; Se retorna a la pagina del producto |
+| Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **4.1:** El usuario no tiene wallet asociada o su sueldo es insuficiente; Le es notificado y retorna a la pagina del producto. <br/> **5.1:** El usuario rechaza; Se retorna a la pagina del producto |
 
 | Id. | 2 |
 | - | - |
 | Titulo | Tradeao |
 | Descripcion | Realizar un intercambio de NFTs entre dos usuarios |
-| Requerimiento/s asociado/s | RF8 |
+| Requerimiento/s asociado/s | RF5, RF7, RF8 |
 | Actor/es | Usuario |
 | Prerequisito/s | Estar suscripto, estar logueado, tener al menos un NFT |
 | Posrequisito/s | Se realizo el intercambio de forma correcta |
@@ -173,24 +176,64 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 | 3. El usuario selecciona intercambiar | Se despliegan los NFTs para ofertar |
 | 4. El usuario selecciona un NFT | Se abre un pop-up de confirmacion |
 | 5. El usuario confirma | El otro usuario confirma, se concreta el intercambio |
-| Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **5.1** El usuario rechaza; Se retorna a la pagina del producto <br/> **5.2** El otro usuario rechaza; Se cancela el intercambio <br/> **5.3** El otro usuario realiza una contraoferta; El usuario puede aceptarla, rechazarla o realizar otra contraoferta |
+| Cursos alternativos | **2.1:** No hay NFTs en venta; se muestra que no hay, y se recomienda probar los juegos. <br/> **5.1:** El usuario rechaza; Se retorna a la pagina del producto <br/> **5.2:** El otro usuario rechaza; Se cancela el intercambio <br/> **5.3:** El otro usuario realiza una contraoferta; El usuario puede aceptarla, rechazarla o realizar otra contraoferta |
 
-<!-- Cuantos? -->
+| Id. | 3 |
+| - | - |
+| Titulo | Enlistar NFT propio unitario a p.f. |
+| Descripcion | Enlistar un unico NFT propio a la venta con un precio fijo |
+| Requerimiento/s asociado/s | RF4, RF6, RF6.1, RF7, RF7.1 |
+| Actor/es | Usuario |
+| Prerequisito/s | Estar suscripto, estar logueado, tener wallet asociada, tener al menos un NFT |
+| Posrequisito/s | El NFT queda enlistado para venta con un precio asignado |
+| Accion | Respuesta |
+| 1. Selecciona "Mi coleccion" | Se redirige a la coleccion |
+| 2. Selecciona un NFT | Se lleva a la pagina del producto |
+| 3. Selecciona "Vender" | Se despliegan las opciones de venta |
+| 4. Se selecciona "Precio fijo" y se elige un precio | Se abre un pop-up de confirmacion |
+| 5. El usuario confirma | Se enlista el NFT a la venta |
+| Cursos alternativos | **4.1:** Se ingresa un precio invalido; Le es notificado al usuario que es invalido y que lo modifique <br/> **5.1:** El usuario rechaza; Se retorna a la pagina del producto |
+
+| Id. | 4 |
+| - | - |
+| Titulo |  |
+| Descripcion |  |
+| Requerimiento/s asociado/s |  |
+| Actor/es |  |
+| Prerequisito/s |  |
+| Posrequisito/s |  |
+| Accion | Respuesta |
+| 1.  |  |
+| 2.  |  |
+| 3.  |  |
+| 4.  |  |
+| 5.  |  |
+| Cursos alternativos | **2.1:**  <br/> **5.2**  <br/> **5.3**  |
 
 ### User stories
 | Id. | 1 |
 | - | - |
-| Titulo | Filtro de contenido |
+| Titulo | Aprobacion de contenido |
 | Narrativa | **Como** administrador. <br/> **Quiero** filtrar los NFTs en venta.<br/> **Para** evitar obsenidades / infricciones de copyright|
-| Criterios de aceptacion | <ul><li>No se puede lanzar un NFT al mercado sin aprovacion de un administrador.</li><li>Un administrador puede deslistar un NFT de la tienda en cualquier momento</li></ul> |
+| Criterios de aceptacion | <ul><li>No se puede lanzar un NFT al mercado sin aprobacion de un administrador.</li><li>Un administrador puede deslistar un NFT de la tienda en cualquier momento</li></ul> |
 
 | Id. | 2 |
 | - | - |
-| Titulo | Notificaciones ofertas |
-| Narrativa | **Como** usuario. <br/> **Quiero** recibir notificaciones cuando oferten por mi NFT.<br/> **Para** no perderme oportunidades de negocios. |
-| Criterios de aceptacion | <ul><li> Se puede dar de alta o baja para las notificaciones.</li><li>Se puede establecer un limite inferior para que no llegue spam.</li></ul> |
+| Titulo | Conectar wallet |
+| Narrativa | **Como** usuario. <br/> **Quiero** asociar mi wallet a mi cuenta.<br/> **Para** permitirme pagar/cobrar por transacciones en la pagina |
+| Criterios de aceptacion | <ul><li> Se puede conectar unicamente una wallet por cuenta.</li><li>Se puede elegir cualquiera de las criptomonedas aceptadas por el sistema.</li></ul> |
 
-<!-- Cuantos? -->
+| Id. | 3 |
+| - | - |
+| Titulo | Tradear NFTs |
+| Narrativa | **Como** usuario. <br/> **Quiero** intercambiar NFTs con otro usuario.<br/> **Para** ahorrarme una transaccion entre la compra y la venta |
+| Criterios de aceptacion | <ul><li> Se puede realizar un intercambio donde cada usuario da al menos un NFT.</li><li>No se puede realizar un intercambio donde al menos un usuario no da ningun NFT.</li></ul> |
+
+| Id. | 4 |
+| - | - |
+| Titulo | Apostar contra la pagina |
+| Narrativa | **Como** usuario. <br/> **Quiero** apostar un NFT contra la pagina.<br/> **Para** intentar ganar uno de mayor valor |
+| Criterios de aceptacion | <ul><li> Al ganar, el usuario recibe el premio a cambio de lo que aposto.</li><li>Al perder, el usuario le da su NFT a la pagina y no recibe nada.</li></ul> |
 
 ## UI
 
@@ -199,7 +242,7 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 # Validaciones
 ## Verificando la especificacion
 
-<!-- No entendi -->
+<!-- Sacar del ejemplo. Se puede hacer una tabla entre UC y RF -->
 
 ## Validando la solucion
 
@@ -212,16 +255,12 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 # Resumen
 
 Para la realizacion de este trabajo aplicamos:
-- Tormenta de ideas
 - Ingenieria Inversa
 - User Personas
 - Entrevista
 - Modelaje del problema
-- Use cases
-- User stories
-- Especificacion de requierimientos
 
-De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten minimizar el re-trabajo.
+De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten minimizar el re-trabajo. <!--Agregar github, blockchain-->
 
 # Fuentes
 - Presentaciones del curso
