@@ -93,7 +93,11 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ### User personas
 
-<!-- Los voy a hacer en photoshop -->
+![User persona 1 - Amanda Wright](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/AW.png)
+
+![User persona 2 - Federico Peralta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/FP.png)
+
+![User persona 3 - Nara Kumar](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/NK.png)
 
 ### Entrevista
 
@@ -101,7 +105,7 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ## Modelo del problema
 
-<!-- Relaciones entre entidades -->
+![Modelo Entidad-Relación](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/mer.png)
 
 # Especificacion
 ## Requerimientos
@@ -133,15 +137,15 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 ### No funcionales
 >Especifican *como* el sistema va a funcionar, no *que* va a hacer. Es un concepto muy amplio que abarca: usabilidad, portabilidad, seguridad, performance, entre otros. Al no ser tan concisos como los funcionales, se suelen usar estandares para comparar.
 
-| Id. | Nombre |
-| :-: | - |
-| RNF1 | Portabilidad |
-| RNF1.1 | Compatibilidad con navegadores basados en Chromium (101.0 o mayor)|
-| RNF1.2 | Compatibilidad con navegadores de celular (iOS 15.4 y Android 12 o mayores) |
-| RNF2 | Cumplimiento del estandar AA de la guia WCAG 2.1 (Accesibilidad) |
-| RNF3 | Cumplimiento del estandar ASVS 4.0.3 de OWASP (Seguridad) |
-| RNF4 | Versiones en espanol, ingles y portugues |
-| RNF5 | Tiempo de transaccion menor a dos minutos |
+| Id. | Nombre | Funcionalidad | Prioridad |
+| :-: | - | - | - |
+| RNF1 | Portabilidad | Compatibilidad con distintos dispositivos | Alta |
+| RNF1.1 | Compatibilidad con navegadores basados en Chromium (101.0 o mayor)| Compatibilidad con la mayoría de los navegadores de escritorio | Alta |
+| RNF1.2 | Compatibilidad con navegadores de celular (iOS 15.4 y Android 12 o mayores) | Compatibilidad con la mayoría de los navegadores mobile | Alta |
+| RNF2 | Cumplimiento del estandar AA de la guia WCAG 2.1 (Accesibilidad) | Cumplir con los requisitos que se pueden encontrar en la pagina de WCAG | Media |
+| RNF3 | Cumplimiento del estandar ASVS 4.0.3 de OWASP (Seguridad) | Cumplir con los requisitos que se pueden encontrar en la pagina de OWASP | Alta |
+| RNF4 | Versiones en espanol, inglés y portugués | Versiones de la página en los tres idiomas | Baja |
+| RNF5 | Tiempo de transacción menor a dos minutos | Establecer dos minutos como el tiempo máximo para una transacción | Media |
 
 ## Casuistica
 ### Use cases
@@ -236,7 +240,11 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ## UI
 
-<!-- Lo voy a hacer en figma -->
+![Homepage](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/homepage.png)
+
+![Perfil](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/profile.png)
+
+![Apuesta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/apuesta.png)
 
 # Validaciones
 ## Verificando la especificacion
