@@ -94,9 +94,11 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ### User personas
 
-<img src="assets/img/aw.png" alt="User persona 1 - Amanda Wright" width="70%"/>
-<img src="assets/img/fp.png" alt="User persona 2 - Federico Peralta" width="70%"/>
-<img src="assets/img/nk.png" alt="User persona 3 - Nara Kumar" width="70%"/>
+![User persona 1 - Amanda Wright](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/AW.png)
+
+![User persona 2 - Federico Peralta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/FP.png)
+
+![User persona 3 - Nara Kumar](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/NK.png)
 
 ### Entrevista
 
