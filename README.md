@@ -67,7 +67,7 @@ UK Data Service define algunas buenas prácticas de versionado como:
 
 ## Ramas
 
->Una rama (branch) es un espacio virtual de trabajo que permite que los desarrolladores diverjan de la version estable del software para solucionar un bug o para añadir nuevas funciones. En las ramas se trabaja con una copia sin modificar de la version existente para aislar las actualizaciones y luego probarlas antes de hacer merge a las ramas principales. Otro posible uso de las ramas es para poder variar el producto según instrucciones de un cliente. 
+Una rama (branch) es un espacio virtual de trabajo que permite que los desarrolladores diverjan de la version estable del software para solucionar un bug o para añadir nuevas funciones. En las ramas se trabaja con una copia sin modificar de la version existente para aislar las actualizaciones y luego probarlas antes de hacer merge a las ramas principales. Otro posible uso de las ramas es para poder variar el producto según instrucciones de un cliente. 
 
 ## Commits
 
@@ -207,6 +207,7 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 # Reflexion
 **Santi:** Por mi parte, siento que nos repartimos bien las tareas, tuvimos una buena comunicacion y logramos cumplir con nuestras metas dentro del tiempo designado.
+
 **Pablo:**
 # Resumen
 
@@ -219,6 +220,7 @@ Para la realizacion de este trabajo aplicamos:
 - Use cases
 - User stories
 - Especificacion de requierimientos
+
 De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten minimizar el re-trabajo.
 
 # Fuentes
