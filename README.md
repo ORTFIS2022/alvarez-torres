@@ -3,7 +3,7 @@
 | Documentación |
 |-|
 | Fundamentos de Ingeniería de Software |
-| M4A - Docentes: Alejandro Adorjan, Rocio |
+| M4A - Docentes: Alejandro Adorjan, Roxana Falco |
 | Santiago Alvarez, Pablo Torres |
 | https://github.com/ORTFIS2022/alvarez-torres |
 
@@ -268,3 +268,5 @@ De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten m
 - TechTerms.com
 - UTDallas.edu
 - OpenSea.io
+- UK Data Service
+- Varonis.com
