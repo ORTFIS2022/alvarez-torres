@@ -197,21 +197,6 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 | 5. El usuario confirma | Se enlista el NFT a la venta |
 | Cursos alternativos | **4.1:** Se ingresa un precio invalido; Le es notificado al usuario que es invalido y que lo modifique <br/> **5.1:** El usuario rechaza; Se retorna a la pagina del producto |
 
-| Id. | 4 |
-| - | - |
-| Titulo |  |
-| Descripcion |  |
-| Requerimiento/s asociado/s |  |
-| Actor/es |  |
-| Prerequisito/s |  |
-| Posrequisito/s |  |
-| Accion | Respuesta |
-| 1.  |  |
-| 2.  |  |
-| 3.  |  |
-| 4.  |  |
-| 5.  |  |
-| Cursos alternativos | **2.1:**  <br/> **5.2**  <br/> **5.3**  |
 
 ### User stories
 | Id. | 1 |
