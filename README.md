@@ -22,7 +22,7 @@ En la creación y mantenimiento de un proyecto de sofware es muy importante inco
 UK Data Service define algunas buenas prácticas de versionado como:
 
 - Decidir qué versiones de archivo mantener y como organizarlas
-- Identificar versiones estables, con mayores cambios.
+- Identificar y mantener versiones estables, que son las que contienen cambios mayores
 - Identificar las diferentes versiones de los archivos con una nomenclatura sistemática
 - Registrar los cambios realizados a un archivo al momento de actualizarlo
 - Registrar las relaciones entre los archivos donde son necesitados
@@ -31,8 +31,16 @@ UK Data Service define algunas buenas prácticas de versionado como:
 - Designar una única localización para almacenar versiones estables y versiones maestras
 
 ## Ramas
+
+Una rama (branch) es un espacio virtual de trabajo que permite que los desarrolladores diverjan de la version estable del software para solucionar un bug o para añadir nuevas funciones. En las ramas se trabaja con una copia sin modificar de la version existente para aislar las actualizaciones y luego probarlas antes de hacer merge a las ramas principales. Otro posible uso de las ramas es para poder variar el producto según instrucciones de un cliente. 
+
 ## Commits
+
+
+
 ## Nuestra experiencia
+
+Decidimos que era pertinente crear ramas individuales, en las que trabajamos según las tareas que nos dividimos. Además de otra rama "release" la cual actualizamos cuando concluiamos las tareas asignadas.
 
 # Elicitacion
 ## Actividades
