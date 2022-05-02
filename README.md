@@ -250,7 +250,8 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 # Reflexion
 **Santi:** Por mi parte, siento que nos repartimos bien las tareas, tuvimos una buena comunicacion y logramos cumplir con nuestras metas dentro del tiempo designado.
 
-**Pablo:**
+**Pablo:** Siento que el proyecto avanzo a pasos agigantados, Santiago y yo coincidimos muy bien con las ideas que queriamos implementar al proyecto y supimos perfectamente que dirección queriamos darle. Nos dividimos las tareas según lo que cada uno queria hacer y asi podiamos trabajar mas satisfechos.
+
 # Resumen
 
 Para la realizacion de este trabajo aplicamos:
