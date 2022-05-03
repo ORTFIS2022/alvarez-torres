@@ -68,6 +68,8 @@ UK Data Service define algunas buenas prácticas de versionado como:
 
 Una rama (branch) es un espacio virtual de trabajo que permite que los desarrolladores diverjan de la version estable del software para solucionar un bug o para añadir nuevas funciones. En las ramas se trabaja con una copia sin modificar de la version existente para aislar las actualizaciones y luego probarlas antes de hacer merge a las ramas principales. Otro posible uso de las ramas es para poder variar el producto según instrucciones de un cliente. 
 
+![ Ramas ](https://github.com/ORTFIS2022/alvarez-torres/blob/pablo-develop/assets/img/branch.png)
+
 ## Commits
 
 Separamos el informe en bloques y cada uno escogió cuales quería hacer, al terminar dichos bloques realizamos commits a las ramas individuales. Luego de que cross-checkearamos lo añadido, realizabamos commits menores para arreglar o añadir contenido.
