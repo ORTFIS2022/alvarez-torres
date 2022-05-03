@@ -104,9 +104,11 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 ### Entrevista
 
 **¿Crees que ya existen suficientes mercados de NFTs o crees que existen demasiados?**
+
 Demasiados mercados segmentados por la cantidad de tipos de crypto que existen. Hacen falta mercados que hagan intuitivo el uso del block-chain y sus bienes, para su adopción masiva.
 
 **¿Has escuchado alguna vez de un sistema de apuestas con NFTs? ¿Qué tan posible lo ves y qué opinas sobre este? En caso de que existiera, ¿Estarías interesado en la idea?**
+
 Sí. Se me viene a la mente Zed Run. O juegos similares, en que el modelo Play to Earn en que se compran y reproducen NFTs, que debería ser catalogado como Pay to Play to Earn, en realidad, es un sistema de apuestas en sí: estás apostando en la "genética" del NFT que reproducís y tirás el dado. Pero como sistema de apuestas para deporte y demás, no sabría qué decir.
 <!-- Ya la mandamos -->
 
