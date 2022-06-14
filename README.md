@@ -100,7 +100,6 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ![User persona 3 - Nara Kumar](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/NK.png)
 
-<<<<<<< HEAD
 ### Entrevista
 
 **¿Crees que ya existen suficientes mercados de NFTs o crees que existen demasiados?**
@@ -112,8 +111,6 @@ Demasiados mercados segmentados por la cantidad de tipos de crypto que existen. 
 Sí. Se me viene a la mente Zed Run. O juegos similares, en que el modelo Play to Earn en que se compran y reproducen NFTs, que debería ser catalogado como Pay to Play to Earn, en realidad, es un sistema de apuestas en sí: estás apostando en la "genética" del NFT que reproducís y tirás el dado. Pero como sistema de apuestas para deporte y demás, no sabría qué decir.
 <!-- Ya la mandamos -->
 
-=======
->>>>>>> santi-develop
 ## Modelo del problema
 
 ![Modelo Entidad-Relación](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/mer.png)
