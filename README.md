@@ -16,7 +16,7 @@
 - **Repositorio:** Estructura de directorios en disco, donde se almacenan el software. Utilizada por sistemas de control de versiones para manejar multiples versiones de archivos. Puede ser local (almacenado en la computadora), o remoto (almacenado en la nube, un servidor).
 - **Rama:** Version que parte de otra, siendo modificable de forma independiente y con la posibilidad de volver a fusionarse.  
 - **Git:** Sistema de control de versiones, el cual registra cambios a archivos con el fin de poder volver a estados anteriores. Tambien permite el trabajo asincronico centralizado por un repositorio remoto.
-  <!-- Rellenar y agregar palabras pertinentes -->
+  <!-- Agregar cripto y NFT si lo corrigen de nuevo -->
 # Repositorio Git
 ## Repositorio
 Para este proyecto se usó Git como nuestro sistema de control de versiones. Este software nos permitió conectar nuestros repositorios locales mediante un repositorio remoto en la nube, permitiendo un trabajo asincrónico. Se comenzó creando un proyecto de Git, desde el cual creamos repositorios locales en nuestras computadoras.
@@ -84,7 +84,6 @@ Decidimos que era pertinente crear ramas individuales, en las que trabajamos seg
 ### Tormenta de ideas
 
 Mediante la tormenta de ideas logramos pensar en una idea nueva para implementar, combinando dos paginas con las que estabamos familiarizados y voy a elaborar en el siguiente punto.
-<!--Plantearlo como intro a elicitacion, no como actividad-->
 
 ### Ingenieria inversa
 
@@ -101,6 +100,7 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ![User persona 3 - Nara Kumar](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/NK.png)
 
+<<<<<<< HEAD
 ### Entrevista
 
 **¿Crees que ya existen suficientes mercados de NFTs o crees que existen demasiados?**
@@ -112,6 +112,8 @@ Demasiados mercados segmentados por la cantidad de tipos de crypto que existen. 
 Sí. Se me viene a la mente Zed Run. O juegos similares, en que el modelo Play to Earn en que se compran y reproducen NFTs, que debería ser catalogado como Pay to Play to Earn, en realidad, es un sistema de apuestas en sí: estás apostando en la "genética" del NFT que reproducís y tirás el dado. Pero como sistema de apuestas para deporte y demás, no sabría qué decir.
 <!-- Ya la mandamos -->
 
+=======
+>>>>>>> santi-develop
 ## Modelo del problema
 
 ![Modelo Entidad-Relación](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/mer.png)
@@ -252,12 +254,9 @@ Verificamos los requerimientos que nos parecieron pertinentes con una tabla de c
 |     Específico    |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si    |    Si    |
 |     Priorizado    |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si   |    Si    |    Si    |
 
-<!-- Sacar del ejemplo. Se puede hacer una tabla entre UC y RF -->
-
 ## Validando la solucion
 
 Acordamos una instancia en persona para enseñarle el proyecto a una persona cercana, le explicamos los conceptos necesarios para entender las funciones del sistema y un recorrido por las distintas características del mismo. La persona quedó sastisfecha, remarcó la innovación y aportó detalles del diseño.
-<!-- Cuando terminemos -->
 
 # Reflexion
 **Santi:** Por mi parte, siento que nos repartimos bien las tareas, tuvimos una buena comunicacion y logramos cumplir con nuestras metas dentro del tiempo designado.
@@ -272,7 +271,7 @@ Para la realizacion de este trabajo aplicamos:
 - Entrevista
 - Modelaje del problema
 
-De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten minimizar el re-trabajo. <!--Agregar github, blockchain-->
+De esta experiencia aprendimos que ciclos cortos y buena comunicacion permiten minimizar el re-trabajo. <!--Agregar github, blockchain si lo corrigen de nuevo-->
 
 # Fuentes
 - Presentaciones del curso

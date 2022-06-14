@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+/*-Header---------------------------------------------------------------------*/
+
+header{
+    height: 50px;
+    background-color: #691b99;
+    color: white;
+}
+
+header h1{
+    font-weight: 600;
+    padding-left: 25px;
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header ul{
+    height: 50px;
+}
+
+header li{
+    list-style: none;
+    display: block;
+    float: left;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    size: inherit;
+    text-align: center;
+}
+
+header a.boton{
+    background-color: #38006b;
+    padding: 0px 60px;
+}
+
+header a.boton:hover{
+    background-color: #4d098b;
+    font-weight: 500;
+}
+
+#menu{
+    width: 50px;
+}
+
+/*-Body-----------------------------------------------------------------------*/
+
+/*
+.bg{
+    position: relative;
+    background-image: url(/src/ui/resources/background1.png);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    height: calc(100vh - 50px);
+    animation: animate 30s linear infinite;
+}
+
+@keyframes animate {
+    from{
+        background-position: 0 0;
+    } to {
+        background-position: -2000px 0;
+    }
+}
+
+*/
+body{
+    background-image: url(/src/ui/resources/background2.png);
+    background-size: cover;
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+}
+
+article{
+    font-size: larger;
+    width: 30vw;
+    padding: 5vh 3vw;
+    margin: 30vh auto;
+    background-color: #691b999c;
+    border-radius: 6vh;
+    color: white;
+}
+
+article h1{
+    font-weight: 600;
+    font-size: xxx-large;
+}
+article p{
+    width: 50%;
+    padding: 3% 0 0 0;
+}
+
+article div{
+    display: inline-block;
+}
+
+article img{
+    display: inline-block;
+    width: 256px;
+}
+
+img#constru{
+    position: fixed;
+    bottom: 3vh;
+    left: 3vh;
+    transform: rotate(-5deg);
+}
