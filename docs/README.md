@@ -95,11 +95,11 @@ La idea que extrapolamos de ambas paginas fue crear un mercado de NFTs como Open
 
 ### User personas
 
-![User persona 1 - Amanda Wright](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/AW.png)
+![User persona 1 - Amanda Wright](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/AW.png)
 
-![User persona 2 - Federico Peralta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/FP.png)
+![User persona 2 - Federico Peralta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/FP.png)
 
-![User persona 3 - Nara Kumar](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/NK.png)
+![User persona 3 - Nara Kumar](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/NK.png)
 
 ### Entrevista
 
@@ -112,7 +112,7 @@ Sí. Se me viene a la mente Zed Run. O juegos similares, en que el modelo Play t
 
 ## Modelo del problema
 
-![Modelo Entidad-Relación](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/mer.png)
+![Modelo Entidad-Relación](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/mer.png)
 
 # Especificacion
 ## Requerimientos
@@ -232,11 +232,11 @@ Sí. Se me viene a la mente Zed Run. O juegos similares, en que el modelo Play t
 
 ## UI
 
-![Homepage](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/homepage.png)
+![Homepage](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/homepage.png)
 
-![Perfil](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/profile.png)
+![Perfil](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/profile.png)
 
-![Apuesta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/assets/img/apuesta.png)
+![Apuesta](https://github.com/ORTFIS2022/alvarez-torres/blob/santi-develop/docs/assets/img/apuesta.png)
 
 # Validaciones
 ## Verificando la especificacion
