@@ -16,6 +16,7 @@ const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
 
 const botonMejora= new MDCRipple(document.getElementById('upgradeButton'));
 botonMejora.listen('click', () => {
+  document.body.style.backgroundImage = 'url("../styles/background2.png")';
   document.querySelectorAll(".content").forEach((element, index) => {
     if (index === 1) {
       element.classList.remove("sample-content--hidden");
@@ -27,6 +28,7 @@ botonMejora.listen('click', () => {
 
 const botonCuenta = new MDCRipple(document.getElementById('accountButton'));
 botonCuenta.listen('click', () => {
+  document.body.style.backgroundImage = 'url("../styles/background2.png")';
   document.querySelectorAll(".content").forEach((element, index) => {
     if (index === 0) {
       element.classList.remove("sample-content--hidden");
