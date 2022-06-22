@@ -12,6 +12,11 @@ const listaPeliculas = new ListaPeliculas();
 const topAppBarElement = document.querySelector('.mdc-top-app-bar');
 const topAppBar = new MDCTopAppBar(topAppBarElement);
 
+const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
+const ripples = [].map.call(document.querySelectorAll(selector), function(el) {
+  return new MDCRipple(el);
+});
+
 const tabBar = new MDCTabBar(document.querySelector(".mdc-tab-bar"));
 tabBar.listen("MDCTabBar:activated", (activatedEvent) => {
   document.querySelectorAll(".content").forEach((element, index) => {
