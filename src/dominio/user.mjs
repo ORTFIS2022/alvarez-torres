@@ -1,6 +1,6 @@
 export default class user {
 
-    constructor() {
+    constructor(id) {
       this.id = id;
       this.collection = collection;
     }
