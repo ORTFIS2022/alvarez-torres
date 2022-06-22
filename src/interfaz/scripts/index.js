@@ -13,10 +13,22 @@ const textFieldTitle = new MDCTextField(document.getElementById('title'));
 const textFieldYear = new MDCTextField(document.getElementById('year'));
 const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
 
+const topAppBarElement = document.querySelector('.mdc-top-app-bar');
+const topAppBar = new MDCTopAppBar(topAppBarElement);
+
+const botonInicio= new MDCRipple(document.getElementById('home'));
+botonInicio.listen('click', () => {
+  document.querySelector('.fondo').style.filter='blur(0px)';
+  document.querySelectorAll(".content").forEach(element => {
+    element.classList.add("sample-content--hidden");
+  }
+  );
+});
+
 
 const botonMejora= new MDCRipple(document.getElementById('upgradeButton'));
 botonMejora.listen('click', () => {
-  document.body.style.backgroundImage = 'url("../styles/background2.png")';
+  document.querySelector('.fondo').style.filter='blur(5px)';
   document.querySelectorAll(".content").forEach((element, index) => {
     if (index === 1) {
       element.classList.remove("sample-content--hidden");
@@ -28,7 +40,7 @@ botonMejora.listen('click', () => {
 
 const botonCuenta = new MDCRipple(document.getElementById('accountButton'));
 botonCuenta.listen('click', () => {
-  document.body.style.backgroundImage = 'url("../styles/background2.png")';
+  document.querySelector('.fondo').style.filter='blur(5px)';
   document.querySelectorAll(".content").forEach((element, index) => {
     if (index === 0) {
       element.classList.remove("sample-content--hidden");
