@@ -4,7 +4,7 @@ export default class collection {
     this.nfts = [];
   }
 
-  agregar(nft) {
+  add(nft) {
     let duplicate = this.nfts.some(m => m.id == nft.id);
     if (!duplicate) {
       this.nfts.push(nft);
@@ -13,7 +13,17 @@ export default class collection {
     }
   }
 
+  remove(nft) {
+    let index = this.nfts.findIndex(m => m.id == nft.id);
+    if (index > -1) {
+      this.nfts.splice(index, 1);
+    } else {
+      throw new Error(`ERROR: No se pudo eliminar el NFT, no se posee uno con el id ${nft.id}`);
+    }
+  }
+
   getNFTs() {
     return this.nfts;
   }
+
 }
