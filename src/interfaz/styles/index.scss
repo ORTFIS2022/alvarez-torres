@@ -36,17 +36,12 @@ body {
   font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0px auto;
   //background-color: #C6B6CF;
-  
-}
-
-.fondo {
-  height: 100%;
   background-image : url("background1.png");
   background-repeat: repeat;
   background-size: 100%;
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  background-position: top;
 }
+
 
 .app-bar {
   position: absolute;

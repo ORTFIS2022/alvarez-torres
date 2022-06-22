@@ -18,7 +18,7 @@ const topAppBar = new MDCTopAppBar(topAppBarElement);
 
 const botonInicio= new MDCRipple(document.getElementById('home'));
 botonInicio.listen('click', () => {
-  document.querySelector('.fondo').style.filter='blur(0px)';
+  document.body.style.backgroundImage = 'url("../styles/background1.png")';
   document.querySelectorAll(".content").forEach(element => {
     element.classList.add("sample-content--hidden");
   }
@@ -28,7 +28,7 @@ botonInicio.listen('click', () => {
 
 const botonMejora= new MDCRipple(document.getElementById('upgradeButton'));
 botonMejora.listen('click', () => {
-  document.querySelector('.fondo').style.filter='blur(5px)';
+  document.body.style.backgroundImage = 'url("../styles/background2.png")';
   document.querySelectorAll(".content").forEach((element, index) => {
     if (index === 1) {
       element.classList.remove("sample-content--hidden");
@@ -40,7 +40,7 @@ botonMejora.listen('click', () => {
 
 const botonCuenta = new MDCRipple(document.getElementById('accountButton'));
 botonCuenta.listen('click', () => {
-  document.querySelector('.fondo').style.filter='blur(5px)';
+  document.body.style.backgroundImage = 'url("../styles/background2.png")';
   document.querySelectorAll(".content").forEach((element, index) => {
     if (index === 0) {
       element.classList.remove("sample-content--hidden");
