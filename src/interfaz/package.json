@@ -10,7 +10,6 @@
   "author": "FIS",
   "license": "",
   "dependencies": {
-    "@material/card": "^14.0.0",
     "@material/snackbar": "^12.0.0",
     "material-components-web": "^11.0.0"
   },

@@ -32,14 +32,16 @@ html {
 }
 
 body {
+  height: 100%;
   font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0px auto;
+  //background-color: #C6B6CF;
+  background-image : url("background1.png");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: top;
 }
 
-.mdc-cardeader {
-  height: 350px;
-  width: 350px;
-}
 
 .app-bar {
   position: absolute;

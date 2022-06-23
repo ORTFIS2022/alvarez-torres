@@ -4,26 +4,33 @@ import { MDCTabBar } from '@material/tab-bar';
 import { MDCTextField } from '@material/textfield';
 import { MDCSelect } from '@material/select';
 import {MDCSnackbar} from '@material/snackbar';
-
-import system from '../../dominio/system.mjs';
-import user from '../../dominio/user.mjs';
-import collection from '../../dominio/collection.mjs';
-import nft from '../../dominio/nft.mjs';
+import ListaPeliculas from '../../dominio/lista-peliculas.mjs';
+import Pelicula from '../../dominio/pelicula.mjs';
 
 const listaPeliculas = new ListaPeliculas();
+
+const textFieldTitle = new MDCTextField(document.getElementById('title'));
+const textFieldYear = new MDCTextField(document.getElementById('year'));
+const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
 
 const topAppBarElement = document.querySelector('.mdc-top-app-bar');
 const topAppBar = new MDCTopAppBar(topAppBarElement);
 
-const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
-const ripples = [].map.call(document.querySelectorAll(selector), function(el) {
-  return new MDCRipple(el);
+const botonInicio= new MDCRipple(document.getElementById('home'));
+botonInicio.listen('click', () => {
+  document.body.style.backgroundImage = 'url("../styles/background1.png")';
+  document.querySelectorAll(".content").forEach(element => {
+    element.classList.add("sample-content--hidden");
+  }
+  );
 });
 
-const tabBar = new MDCTabBar(document.querySelector(".mdc-tab-bar"));
-tabBar.listen("MDCTabBar:activated", (activatedEvent) => {
+
+const botonMejora= new MDCRipple(document.getElementById('upgradeButton'));
+botonMejora.listen('click', () => {
+  document.body.style.backgroundImage = 'url("../styles/background2.png")';
   document.querySelectorAll(".content").forEach((element, index) => {
-    if (index === activatedEvent.detail.index) {
+    if (index === 1) {
       element.classList.remove("sample-content--hidden");
     } else {
       element.classList.add("sample-content--hidden");
@@ -31,9 +38,18 @@ tabBar.listen("MDCTabBar:activated", (activatedEvent) => {
   });
 });
 
-const textFieldTitle = new MDCTextField(document.getElementById('title'));
-const textFieldYear = new MDCTextField(document.getElementById('year'));
-const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
+const botonCuenta = new MDCRipple(document.getElementById('accountButton'));
+botonCuenta.listen('click', () => {
+  document.body.style.backgroundImage = 'url("../styles/background2.png")';
+  document.querySelectorAll(".content").forEach((element, index) => {
+    if (index === 0) {
+      element.classList.remove("sample-content--hidden");
+    } else {
+      element.classList.add("sample-content--hidden");
+    }
+  });
+}
+);
 
 const addButton = new MDCRipple(document.getElementById('addButton'));
 addButton.listen('click', () => {
