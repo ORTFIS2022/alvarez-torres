@@ -1,8 +1,9 @@
+import collection from './collection.mjs';
 export default class user {
 
     constructor(id) {
       this.id = id;
-      this.collection = collection;
+      this.collection = new collection;
     }
 
     recieve(nft, sender) {
