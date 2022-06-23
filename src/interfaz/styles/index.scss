@@ -42,6 +42,10 @@ body {
   background-position: top;
 }
 
+.mdc-card__media-content{
+  background-image: url("perfil.jpg");
+  background-size: 100%;
+}
 
 .app-bar {
   position: absolute;
@@ -64,6 +68,15 @@ section {
   margin: 10rem auto;
   padding-bottom: 20rem;
   text-align: center;
+}
+
+.mdc-card {
+  height: 350px;
+  width: 350px;
+}
+
+.mdc-card-content {
+  padding: 16px;
 }
 
 .sample-content--hidden {
