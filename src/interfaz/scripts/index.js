@@ -4,10 +4,11 @@ import { MDCTabBar } from '@material/tab-bar';
 import { MDCTextField } from '@material/textfield';
 import { MDCSelect } from '@material/select';
 import {MDCSnackbar} from '@material/snackbar';
-import ListaPeliculas from '../../dominio/lista-peliculas.mjs';
-import Pelicula from '../../dominio/pelicula.mjs';
+import system from '../../dominio/system.mjs';
+import user from '../../dominio/user.mjs';
+import collection from '../../dominio/collection.mjs';
+import nft from '../../dominio/nft.mjs';
 
-const listaPeliculas = new ListaPeliculas();
 
 const textFieldTitle = new MDCTextField(document.getElementById('title'));
 const textFieldYear = new MDCTextField(document.getElementById('year'));
