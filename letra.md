@@ -1,4 +1,4 @@
-## Proyecto 202108 MisGastos
+## Proyecto 202203 NFTs
 Objetivo general: aprender las actividades fundamentales de la ingeniería de software, mediante el desarrollo de un proyecto real con objetivos de calidad y tecnologías en el estado del arte.
 
 Objetivos entrega 1
@@ -36,7 +36,7 @@ Mostrar ejemplos de aplicación en el proyecto y recomendaciones útiles para lo
 * Test unitario Jest
 
 ### Desafío del proyecto
-MisGastos es una aplicación que permite llevar registro de los gastos de una persona con el objetivo de monitorear sus consumos y mejorar sus finanzas personales.
+NFTs es una aplicación que permite a los usuarios comprar, vender y descubrir artículos digitales
 
 Se trata de un desafío abierto, se deben explorar funciones que sean de valor para los usuarios.
 La investigación del problema y delimitación del alcance es responsabilidad de los estudiantes. 
@@ -47,12 +47,12 @@ Las consultas del obligatorio (sobre alcance de la letra o sobre tecnologías) d
 ### Especificación de estilo
 https://material.io/resources/color 
 
-* Nombre de la app: MisGastos
-* Colors primary: Deep Purple 700, secondary: Teal 700
+* Nombre de la app: NFTs
+* Colores primarios y secundarios seleccionados de: https://material.io/resources/color
 * Font: Roboto
 * Icons: filled
 
-### Evaluación entrega 1 (18-oct-2021)
+### Evaluación entrega 1 (02-may-22)
 Área | Objetivos | Puntos
 --- | --- | ---
 | Repositorio Git | | 5
@@ -79,7 +79,7 @@ https://material.io/resources/color
 | | Técnicas aplicadas y aprendizajes
 
 
-### Evaluación entrega 2 (29-nov-2021)
+### Evaluación entrega 2 (27-jun-2021)
 Área | Objetivos | Puntos
 --- | --- | ---
 | Construcción | | 5
