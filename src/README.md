@@ -128,4 +128,4 @@ Me quede disconforme con material.io, ya que nos retrasó varios días, lo cual 
 
 ### Técnicas aplicadas y aprendizajes
 
-
+Lo que más se destaco en aprendizaje fue el hecho de aprender a usar herramientas (Material Design y Jest) en la que la documentación no oficial que existe sobre la misma muchas veces no es fiable, o es muy general y no aplica para la función que se desea implementar
