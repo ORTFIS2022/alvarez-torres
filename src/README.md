@@ -122,4 +122,10 @@ Personalmente tenía grandes expectativas con esta parte del trabajo ya que quer
 
 Dejando eso de lado, nos dividimos las tareas eficientemente y nos ayudábamos mutuamente cuando podíamos. Pudimos mantener el mismo rumbo de pensamiento a la hora de mejorar de la implementación.
 
-Técnicas aplicadas y aprendizajes
+**Santiago**
+
+Me quede disconforme con material.io, ya que nos retrasó varios días, lo cual se arrastró hasta el fin del proceso. A pesar de estar emocionado por nuestra idea, sentí que las herramientas nos tiraron para atrás mucho más de lo que nos ayudaron. Por su lado, git nos pareció muy útil y va a formar parte de futuros proyectos. Me quedo con la lección de no confiar en herramientas que no conozca y dedicarle mucho más tiempo a explorarlas y solucionar sus problemas antes de empezar con cualquier proyecto.
+
+### Técnicas aplicadas y aprendizajes
+
+
